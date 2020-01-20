@@ -1,0 +1,141 @@
+﻿{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Venturelift</title>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="{% static 'fonts/fontAwesome/css/all.min.css' %}">
+    <!--slicknav stylesheet-->
+    <link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}">
+    <!--bootstrap stylesheet-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="{% static 'custom/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+  </head>
+  <body>
+    <!--header area start-->
+    <header class="header-area">
+    <!--header top start-->
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-md-2">
+                        <a href="index.html" class="logo"> <img src="{% static 'img/logo.png' %}" alt=""></a>
+                    </div>
+                    <div class="col-xl-7 offset-xl-2 col-md-9 offset-md-1 ">
+                        <nav>
+                            <ul  id="menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Funder</a></li>
+                                <li><a href="#">Partner</a></li>
+                                <li><a href="#">Knowledge Center</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li id="profile-pic-sm"><a href="#"><img src="{% static 'img/profile-pic-sm.png' %}" alt=""></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</header>
+    <!--header top end-->
+	
+	
+	
+	
+	{% block content %}
+	
+	{% endblock %}
+	
+	
+	<!--Footer area start-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6">
+                    <div class="footer-widget-one widget">
+                        <img src="{% static 'img/logo.png' %}" alt="">
+                        <p>VentureLift Africa (VLA) launched in 2018 to address resource gaps confronting African startups and growing SMEs, including access to finance, market expansion, human capital and areas of business education.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 offset-lg-1">
+                    <div class="footer-widget-two widget">
+                        <h5 class="footer-title">Company</h5>
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Leadership</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Faqs</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget-three widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Funder</a></li>
+                                <li><a href="#">Partner</a></li>
+                                <li><a href="#">Knowledge Center</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget-four widget">
+                        <h5 class="footer-title">Contact</h5>
+                        <div class="contact-info">
+                            <p><i class="fas fa-phone-alt"></i> Telephone</p>
+                            <p> +5876545678-86</p>
+                        </div>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> Email</p>
+                            <p> +5876545678-86</p>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer area end-->
+    
+    <!--Footer bottom area start-->
+    <section class="footer-bottom">
+        <p>&copy; 2019 VentureLift Africa. All Rights Reserved</p>
+    </section>
+    <!--Footer bottom area end-->
+
+     
+
+      <!--js files-->
+      <!--jquery js-->
+      <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <!--bootstrap js-->
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <!--slicknav js-->
+      <script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+      <!--custom js-->
+      <script src="{% static 'js/active.js' %}"></script>
+  </body>
+</html>
